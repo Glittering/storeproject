@@ -1,0 +1,14 @@
+[[source]]
+name = "pypi"
+verify_ssl = true
+url = "https://pypi.mirrors.ustc.edu.cn/simple/"
+
+[dev-packages]
+
+[packages]
+django = "==1.9.5"
+pymysql = "==0.7.2"
+pillow = "*"
+
+[requires]
+python_version = "3.5"
